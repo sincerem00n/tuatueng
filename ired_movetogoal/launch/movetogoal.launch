@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="movetogoal_node" pkg="ired_movetogoal" type="movetogoalConvex.py" output="screen" respawn="false"/>
+
+    <!-- <node name="position_node" pkg="ired_movetogoal" type="position.py"  output="screen" respawn="false"/> -->
+    
+</launch>
